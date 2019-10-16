@@ -1,8 +1,10 @@
+package problems;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Marathon {
-  public String solution(String[] participant, String[] completion) {
+  static String solution(String[] participant, String[] completion) {
     Map<String, Integer> partMap = new HashMap<>();
     for (String s : participant) {
       if ( partMap.get(s) == null ) {

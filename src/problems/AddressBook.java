@@ -1,7 +1,9 @@
+package problems;
+
 import java.util.Arrays;
 
 public class AddressBook {
-  public boolean solution(String[] phone_book) {
+  static boolean solution(String[] phone_book) {
     boolean answer = true;
 
     for (String phone : phone_book ) {
