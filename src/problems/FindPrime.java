@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindPrime {
-  static int solution(int n) {
+  public static int solution(int n) {
     List<Boolean> isPrimeList = new ArrayList<>();
 
     // 0, 1 은 소수가 아님

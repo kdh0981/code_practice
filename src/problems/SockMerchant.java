@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SockMerchant {
-    static int solution(int n, int[] ar) {
+    public static int solution(int n, int[] ar) {
         Map<Integer, Boolean> existSocks = new HashMap<>();
         int pairCnt = 0;
 

@@ -3,7 +3,7 @@ package problems;
 import java.util.Arrays;
 
 public class AddressBook {
-  static boolean solution(String[] phone_book) {
+  public static boolean solution(String[] phone_book) {
     boolean answer = true;
 
     for (String phone : phone_book ) {

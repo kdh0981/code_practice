@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Marathon {
-  static String solution(String[] participant, String[] completion) {
+  public static String solution(String[] participant, String[] completion) {
     Map<String, Integer> partMap = new HashMap<>();
     for (String s : participant) {
       if ( partMap.get(s) == null ) {
