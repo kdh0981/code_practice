@@ -97,7 +97,8 @@ phone_book	return
 
 ##### 양말짝 찾기 - SockMerchant.java
 ```
-John works at a clothing store. He has a large pile of socks that he must pair by color for sale. Given an array of integers representing the color of each sock, 
+John works at a clothing store. He has a large pile of socks that he must pair by color for sale. 
+Given an array of integers representing the color of each sock, 
 determine how many pairs of socks with matching colors there are.
 
 For example, there are n = 7 socks with colors ar = [1,2,1,2,1,3,2]. 
@@ -126,10 +127,10 @@ The second line contains  space-separated integers describing the colors  of the
 Return the total number of matching pairs of socks that John can sell.
 
 ###### Sample Input
-n: 9
-ar: [10 20 20 10 10 30 50 10 20]
+- n: 9
+- ar: [10 20 20 10 10 30 50 10 20]
 
 ###### Sample Output
-3
+- 3
 
 출처 - [Hackerrank](https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=warmup&isFullScreen=true)
