@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Marathon {
-  public String solution(String[] participant, String[] completion) {
+  public static String solution(String[] participant, String[] completion) {
     Map<String, Integer> partMap = new HashMap<>();
     for (String s : participant) {
       if ( partMap.get(s) == null ) {
@@ -22,5 +22,11 @@ public class Marathon {
       }
     }
     return partMap.keySet().iterator().next();
+  }
+
+  public static void main(String[] args) {
+    System.out.println(Marathon.solution(
+    new String[]{"mislav", "stanko", "mislav", "ana"},
+    new String[]{"stanko", "ana", "mislav"}));
   }
 }

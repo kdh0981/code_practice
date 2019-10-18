@@ -1,6 +1,5 @@
 public class FindPrime {
-  public int solution(int n) {
-    long start = System.currentTimeMillis();
+  public static int solution(int n) {
     int answer = 0;
 
     for ( int i = 2; i <= n; i++ ) {
@@ -16,8 +15,10 @@ public class FindPrime {
       if ( isPrime ) answer++;
     }
 
-    long end = System.currentTimeMillis();
-    System.out.println("time:::" + (end - start) + "ms");
     return answer;
+  }
+
+  public static void main(String args[]) {
+      System.out.println(new FindPrime().solution(100));
   }
 }
