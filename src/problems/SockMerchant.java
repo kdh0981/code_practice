@@ -19,4 +19,8 @@ public class SockMerchant {
         }
         return pairCnt;
     }
+
+    public static void main(String[] args) {
+        System.out.println(SockMerchant.solution(9, new int[]{10, 20, 20, 10, 10, 30, 50, 10, 20}));
+    }
 }

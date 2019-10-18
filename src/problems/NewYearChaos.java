@@ -1,3 +1,5 @@
+package problems;
+
 public class NewYearChaos {
   public static void solution(int[] q) {
     int bride = 0;

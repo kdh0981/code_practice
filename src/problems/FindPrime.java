@@ -28,4 +28,8 @@ public class FindPrime {
 
     return  ((Long)isPrimeList.stream().filter(isPrime -> isPrime).count()).intValue();
   }
+
+  public static void main(String[] args) {
+    System.out.println(FindPrime.solution(100));
+  }
 }
