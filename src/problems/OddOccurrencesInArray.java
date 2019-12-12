@@ -19,6 +19,7 @@ public class OddOccurrencesInArray {
     int nonPair = -1;
     for (Integer num : numberMap.keySet()) {
       if ( numberMap.get(num) % 2 == 1 ) {
+        // 딱 하나만 있는 경우와 홀수로 여러개 존재하는 경우를 모두 체크해야함
         nonPair = num;
         break;
       }
