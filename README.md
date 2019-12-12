@@ -20,5 +20,5 @@
 ##### BinaryGap.java
 <https://app.codility.com/programmers/lessons/1-iterations/binary_gap>
 
-##### OddOccurrencesInArray
+##### OddOccurrencesInArray.java
 https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array
