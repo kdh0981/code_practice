@@ -9,6 +9,9 @@
 ##### 전화번호 목록 - AddressBook.java
 <https://programmers.co.kr/learn/courses/30/lessons/42577>
 
+##### 크레인 인형뽑기 게임 - DollGrabMachine.java
+<https://programmers.co.kr/learn/courses/30/lessons/64061>
+
 - - -
 ##### DynamicArray.java
 <https://www.hackerrank.com/challenges/dynamic-array/problem>
